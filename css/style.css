@@ -1,0 +1,249 @@
+body {
+    margin: 0px;
+}
+.home-page .head {
+    background-color: #636363;
+}
+.head-top {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-right {
+    width: 7%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.head-left {
+    width: 12%;
+    text-align: center;
+}
+.head-between {
+    width: 46%;
+}
+.head-top .head-between ul {
+    padding: 0px;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.head-top .head-between ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.head-between-main {
+    text-align: center;
+    padding: 50px;
+}
+.head-between-main h5 ,h3 ,h4 {
+    color:#fff;
+    
+}
+.head-between-main h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.head-between-main h3 {
+    font-size: 38px;
+    font-weight: 600;
+    margin: 0px;
+}
+.head-between-main h4 {
+    font-style: italic;
+    font-size: 44px;
+    font-weight: 500;
+    margin: 0px;
+    padding-bottom: 50px;
+
+}
+.head-bottom {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.head-bottom p {
+    margin: 0px auto;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.head-bottom p img {
+    margin-top: 13px;
+}
+.we-are {
+    background-color: #fff;
+    text-align: center;
+}
+.we-are h3 {
+    color: #000;
+    font-size: 43px;
+}
+.we-are p {
+    color: #636363;
+    width: 41%;
+    margin: 0px auto;
+}
+.we-are img {
+    margin: 40px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/bg.png);
+}
+.content-main {
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.content-img{
+    margin-right: 20px;
+
+}
+.content p {
+    margin: 8px 0px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.donec-orci {
+    background-color: #f6f6f6 ;
+}
+.donec-orci-top {
+    padding-top: 60px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.donec-orci-top h2 {
+    font-size: 45px;
+    letter-spacing: 1.2px;
+    margin: 0px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.donec-orci-top p {
+    margin: 10px;
+    color: #636363;
+}
+.crow {
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row-main-text ,
+.row-main {
+    width: 500px;
+    height: 300px;
+    background-color: #d9d9d9 ;
+}
+.row-main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+}
+.row-main-text h3 , p{
+    color: #000;
+}
+.crow-block {
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+}
+.row-main-text h3 {
+    margin-bottom: 7px;
+}
+.row-main-text p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.michael-hopkins {
+    background-image: url(../images/bg.png);
+}
+.michael-hopkins p , h5 {
+    color: #fff;
+}
+.michael-hopkins p {
+    width: 45%;
+    margin: 0px auto;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 100px;
+    font-style: italic;
+}
+.michael-hopkins h5 {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 100px;
+}
+.img-text {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+}
+.bottom {
+    background-color:#f6f6f6 ;
+    height: 800px;
+}
+.bottom-text {
+    padding: 40px;
+    text-align: center;
+}
+.bottom-text h3 {
+    font-size: 45px;
+    letter-spacing: 1.2px;
+    margin: 0px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.bottom-text p {
+    font-size: 14px;
+    margin: 10px;
+    color: #636363;
+}
+.row-main .top {
+    position: relative;
+    height: 200px;
+}
+.bottom .row-main {
+    width: 420px;
+    height: 200px;
+}
+.row-main .top button {
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    background-color: black ;
+    padding: 5px 15px;
+    color: #fff; 
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 10px;
+}
+.bottom-main {
+    padding: 25px;
+    background-color:#fff ;
+}
+.bottom-main h3 {
+    color: black;
+    margin: 0px;
+    font-size: 30px;
+    letter-spacing: 0.8px;
+}
+.bottom-main h6 {
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.bottom-main p {
+    color: #636363;
+}
